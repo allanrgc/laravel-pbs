@@ -13,9 +13,6 @@ export default function Create({ auth }) {
     const handleSubmit = (e) => {
         e.preventDefault();
         post('/clients', {
-            // onSuccess: () => {
-            //     window.location.href = '/clients';
-            // },
         });
     };
 
