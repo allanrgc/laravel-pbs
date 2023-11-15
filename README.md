@@ -20,8 +20,6 @@ Bem-vindo ao meu aplicative de gerenciamento de clientes feito com php com Larav
 ### Tela de Adicionar Cliente
 <img src="./public/Screenshot_add.png" alt="Tela Inicial" width="300">
 
-
-
 ## Instalação
 
 1. Clone este repositório para o seu computador:
