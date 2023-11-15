@@ -12,7 +12,6 @@ export default function All({ auth, clients }) {
             <div className="py-12">
                 <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
                     <div className="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
-                        {/* <div className="p-6 text-gray-900 dark:text-gray-100">You're logged in! BRUHH</div> */}
                         <div>
                             <div className='p-4 flex justify-end'>
                                 <a
@@ -22,16 +21,13 @@ export default function All({ auth, clients }) {
                                         Adicionar Cliente
                                 </a>
                             </div>
-                        {/* <p>
-                            <a href="/clients/create" className="text-blue-500 hover:underline">Adicionar Cliente</a>
-                        </p> */}
+
                             <table className="min-w-full divide-y divide-gray-200">
                                 <thead className="bg-gray-50 dark:bg-gray-700">
                                     <tr>
                                         <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nome</th>
                                         <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Data de Nascimento</th>
                                         <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">CPF/CNPJ</th>
-                                        {/* <th>Foto</th> */}
                                         <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nome Social</th>
                                     </tr>
                                 </thead>
@@ -44,11 +40,6 @@ export default function All({ auth, clients }) {
                                             
                                             <td className="px-6 text-gray-400 py-4 whitespace-nowrap">{client.data_nascimento}</td>
                                             <td className="px-6 text-gray-400 py-4 whitespace-nowrap">{client.cpf_cnpj}</td>
-                                            {/* <td>
-                                                {client.foto && (
-                                                    <img src={client.foto} alt={`Foto de ${client.nome}`} className="h-8 w-8 rounded-full" />
-                                                )}
-                                            </td> */}
                                             <td className="px-6 text-gray-400 py-4 whitespace-nowrap">{client.nome_social}</td>
                                         </tr>
                                     ))}

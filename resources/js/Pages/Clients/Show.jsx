@@ -8,40 +8,20 @@ export default function Show({ auth, client }) {
         data_nascimento: client.data_nascimento,
         cpf_cnpj: client.cpf_cnpj,
         nome_social: client.nome_social,
-        // foto: null
-    
     });
 
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // const formData = new FormData();
-        // formData.append('nome', data.nome || client.nome);
-        // formData.append('data_nascimento', data.data_nascimento || client.data_nascimento);
-        // formData.append('cpf_cnpj', data.cpf_cnpj || client.cpf_cnpj);
-        // formData.append('nome_social', data.nome_social || client.nome_social);
-        // // formData.append('foto', data.foto || client.foto);
-        // console.log("FORM DATA", formData)
-        // if (data.foto) {
-        //     formData.append('foto', data.foto);
-        //     console.log("RETORNO DATA FOTO", data.foto)
-        // } else if (client.foto) {
-        //     formData.append('foto', client.foto);
-
-        // }
-        //   console.log('Conteúdo do FormData:', formData);
           patch(route('clients.update', { client }),  {
               data: data,  
               onSuccess: () => {
-                //   console.log("RETORNO SUCESSO AQUI", client)
-                  // visit(route('clients.show', { client }));
                 },
             });
     };
 
     const handleFileChange = (e) => {
         const file = e.target.files[0];
-        // console.log('Arquivo selecionado:', file);
         setData('foto', file);
     };    
 
@@ -51,7 +31,6 @@ export default function Show({ auth, client }) {
             axios.delete(route('clients.destroy', { client }))
             .then(response => {
                 window.location.reload();
-                // visit(route('clients.index'));
             }).catch(error => {
                 console.error(error);
             });
@@ -151,11 +130,6 @@ export default function Show({ auth, client }) {
                                     {errors.foto && <p className="text-red-500 text-xs mt-1">{errors.foto}</p>}
                                     {client.foto && (
                                         <div className="mt-2">
-                                            {/* <img
-                                                src={`/storage/${client.foto}`}
-                                                alt="Foto do Cliente"
-                                                className="max-w-full h-auto"
-                                            /> */}
                                             <img
                                                 src={`/storage/${client.foto}`}
                                                 srcSet={`/storage/${client.foto} 480w,
