@@ -9,16 +9,16 @@ Bem-vindo ao meu aplicative de gerenciamento de clientes feito com php com Larav
 ## Capturas de Tela
 
 ### Tela Inicial
-<img src="./public/Screenshot_main.png" alt="Tela de Login" width="300">
+<img src="./public/screenshots/Screenshot_main.png" alt="Tela de Login" width="300">
 
 ### Tela de Login 
-<img src="./public/Screenshot_login.png" alt="Tela de Login (preenchido)" width="300">
+<img src="./public/screenshots/Screenshot_login.png" alt="Tela de Login (preenchido)" width="300">
 
 ### Tela de Dashboard
-<img src="./public/Screenshot_dashboard.png" alt="Tela de Cadastro" width="300">
+<img src="./public/screenshots/Screenshot_dashboard.png" alt="Tela de Cadastro" width="300">
 
 ### Tela de Adicionar Cliente
-<img src="./public/Screenshot_add.png" alt="Tela Inicial" width="300">
+<img src="./public/screenshots/Screenshot_add.png" alt="Tela Inicial" width="300">
 
 ## Instalação
 
