@@ -1,24 +1,24 @@
 # Clients Manager
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/your-username/your-repo)](https://github.com/your-username/your-repo/issues)
-[![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo)](https://github.com/your-username/your-repo/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/your-username/your-repo)](https://github.com/allanrgc/laravel-pbs/issues)
+[![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo)](https://github.com/allanrgc/laravel-pbs/stargazers)
 
 Bem-vindo ao meu aplicative de gerenciamento de clientes feito com php com Laravel e React Inertia. Com esta aplicação você pode criar e gerenciar uma lista de clientes que possuam informações como (nome, data de nascimento, cpf/cnpj, nome da empresa, foto). Aplicação em desenvolvimento.
 
 ## Capturas de Tela
 
 ### Tela Inicial
-<img src="./public/screenshots/Screenshot_main.png" alt="Tela Inicial" width="400">
+<img src="./public/screenshots/Screenshot_main.png" alt="Tela Inicial" width="450">
 
 ### Tela de Login 
-<img src="./public/screenshots/Screenshot_login.png" alt="Tela de Login" width="400">
+<img src="./public/screenshots/Screenshot_login.png" alt="Tela de Login" width="450">
 
 ### Tela de Dashboard
-<img src="./public/screenshots/Screenshot_dashboard.png" alt="Tela de Dashboard" width="400">
+<img src="./public/screenshots/Screenshot_dashboard.png" alt="Tela de Dashboard" width="450">
 
 ### Tela de Adicionar Cliente
-<img src="./public/screenshots/Screenshot_add.png" alt="Tela de Adicionar Cliente" width="400">
+<img src="./public/screenshots/Screenshot_add.png" alt="Tela de Adicionar Cliente" width="450">
 
 ## Instalação
 
