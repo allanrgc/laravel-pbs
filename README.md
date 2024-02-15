@@ -4,7 +4,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/your-username/your-repo)](https://github.com/allanrgc/laravel-pbs/issues)
 [![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo)](https://github.com/allanrgc/laravel-pbs/stargazers)
 
-Bem-vindo ao meu aplicative de gerenciamento de clientes feito com php com Laravel e React Inertia. Com esta aplicação você pode criar e gerenciar uma lista de clientes que possuam informações como (nome, data de nascimento, cpf/cnpj, nome da empresa, foto). Aplicação em desenvolvimento.
+Bem-vindo à aplicação de gerenciamento de clientes feito com php com Laravel e React Inertia. Com esta aplicação você pode criar e gerenciar uma lista de clientes que possuam informações como (nome, data de nascimento, cpf/cnpj, nome da empresa, foto). Aplicação em desenvolvimento.
 
 ## Capturas de Tela
 
